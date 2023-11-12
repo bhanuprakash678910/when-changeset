@@ -2,11 +2,9 @@ pipeline {
     agent any
     stages {
         stage("Build") {
-           /* when {changeset "**/*.java" }
-              */
-      steps {
+           steps {
                 echo "Hello World changeset"
-            }
+              }
         }
     }
 }
