@@ -4,7 +4,6 @@ pipeline {
         stage("Build") {
            /* when {changeset "**/*.java" }
               */
-            }
       steps {
                 echo "Hello World changeset"
             }
